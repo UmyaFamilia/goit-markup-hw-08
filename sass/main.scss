@@ -1,0 +1,26 @@
+//BASE
+@import "./base/variables";
+@import "./base/base";
+//UTILS
+@import "./utils/_visualli-hiden.scss";
+@import "./utils/_is-hidden.scss";
+
+//COMPONENTS
+@import "./components/_button.scss";
+@import "./components/logo";
+@import "./components/title";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/menu";
+//LAYOUT
+
+@import "./layout/modal";
+@import "./layout/title";
+@import "./layout/second";
+@import "./layout/ourwork";
+@import "./layout/ourteam";
+@import "./layout/customers";
+//layout page two
+@import "./loyoutPortfolio/main";
+
+

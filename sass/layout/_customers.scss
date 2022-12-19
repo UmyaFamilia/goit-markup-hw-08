@@ -1,0 +1,87 @@
+
+
+
+
+.our-customer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+   /*justify-content: space-between;  desck top*/
+    padding-top: 50px;
+    padding-bottom: 95px;
+    justify-content:center;
+    flex-wrap: wrap;
+    row-gap:30px ;
+    column-gap: 30px;
+
+    @media screen and (min-width:1200px) {
+      justify-content: space-between
+    }  
+  }
+  .our-customers{
+    
+    &__title {
+    padding-top: 95px;
+ 
+  }
+
+  &__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 210px;
+    height:92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    -webkit-transition-property: border-color;
+    transition-property: border-color;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 250ms;
+    transition-duration: 250ms;
+
+   @media screen and(min-width:768px) {
+   width: 226px;
+   height:92px;}
+   
+    @media screen and (min-width:1200px) {
+    width: 170px;
+    height: 92px;
+    }
+
+             
+               
+
+            &:hover, &:focus {
+                border-color: var(--main-font-color);
+                outline: none;
+                .our-customers__icon{
+                    fill: var(--main-font-color);
+                }
+
+              }
+              &:last-child {
+                margin-right: 0px;
+              }
+  }
+  &__icon {
+    fill: #AFB1B8;
+    -webkit-transition-property: fill;
+    transition-property: fill;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+  }
+}
+
+ 
+

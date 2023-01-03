@@ -1,6 +1,13 @@
 .title {
 	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 		url(../images/hero/phone/Header\ imgsm@1x.jpg);
+	@media screen and (min-device-pixel-ratio: 2),
+		(-webkit-min-device-pixel-ratio: 2),
+		(min-resolution: 192dpi),
+		(min-resolution: 2dppx) {
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url(../images/hero/phone/Header\ imgsm@2x.jpg);
+	}
 
 	padding-top: 118px;
 	padding-bottom: 118px;
@@ -19,6 +26,13 @@
 		min-width: 768px;
 		padding-top: 118px;
 		padding-bottom: 118px;
+		@media screen and (min-device-pixel-ratio: 2),
+			(-webkit-min-device-pixel-ratio: 2),
+			(min-resolution: 192dpi),
+			(min-resolution: 2dppx) {
+			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+				url(../images/hero/tablet/Header\ imgmd@2x.jpg);
+		}
 	}
 	@media screen and(min-width:1200px) {
 		min-width: 1200px;
@@ -26,6 +40,13 @@
 		padding-bottom: 200px;
 		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 			url(../images/hero/descktop/Imglg@1x.jpg);
+		@media screen and (min-device-pixel-ratio: 2),
+			(-webkit-min-device-pixel-ratio: 2),
+			(min-resolution: 192dpi),
+			(min-resolution: 2dppx) {
+			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+				url(../images/hero/descktop/Imglg@2x.jpg);
+		}
 	}
 }
 

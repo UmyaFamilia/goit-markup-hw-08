@@ -1229,7 +1229,6 @@ img {
   background: #f5f4fa;
   padding-top: 60px;
   padding-bottom: 60px;
-  min-width: 480px;
 }
 @media screen and (min-width: 1200px) {
   .ourteam {
@@ -1283,8 +1282,13 @@ img {
   background-color: var(--white-color);
   margin-left: auto;
   margin-right: auto;
-  width: 450px;
+  width: 290px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+  .ourteam__item {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 768px) {
   .ourteam__item {
@@ -1308,7 +1312,7 @@ img {
   justify-content: center;
 }
 .ourteamIcons__icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

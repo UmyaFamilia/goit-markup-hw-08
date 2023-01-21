@@ -139,7 +139,7 @@
 
 	&:before {
 		content: " ";
-		width: 16px;
+		min-width: 16px;
 		height: 15px;
 		border-radius: 2px;
 		border: solid black 2px;
@@ -177,7 +177,7 @@
 	input:checked + .checkbox__lable:before {
 		background-color: var(--main-font-color);
 		border: none;
-		//background-image: url(../../images/Vector\\(4\).svg);
+		background-image: url(../../images/agree.svg);
 		background-position-y: center;
 		background-position-x: center;
 		background-repeat: no-repeat;

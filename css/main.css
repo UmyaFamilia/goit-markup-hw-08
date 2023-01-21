@@ -1017,7 +1017,7 @@ img {
 .checkbox input:checked + .checkbox__lable:before {
   background-color: var(--main-font-color);
   border: none;
-  background-image: url(../../images/agree.svg);
+  background-image: url(../images/agree.svg);
   background-position-y: center;
   background-position-x: center;
   background-repeat: no-repeat;
